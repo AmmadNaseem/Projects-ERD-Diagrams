@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-14T07:19:59.345Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="wap_doGnjcuVtGBbfVqu" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-14T07:23:59.407Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="pzYUoj73i2FJcqa0gfBS" version="21.1.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="880" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -113,7 +113,7 @@
           <mxGeometry y="130" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="enseXvZCVExBjmzHqvM3-22" value="Country" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="570" y="350" width="160" height="110" as="geometry">
+          <mxGeometry x="620" y="350" width="160" height="110" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -205,13 +205,35 @@
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="enseXvZCVExBjmzHqvM3-50" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="enseXvZCVExBjmzHqvM3-19">
+        <mxCell id="enseXvZCVExBjmzHqvM3-50" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="enseXvZCVExBjmzHqvM3-19" target="enseXvZCVExBjmzHqvM3-27">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="310" y="550" as="sourcePoint" />
             <mxPoint x="350" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="enseXvZCVExBjmzHqvM3-51" value="One-many" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="enseXvZCVExBjmzHqvM3-50">
+          <mxGeometry x="-0.2938" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="enseXvZCVExBjmzHqvM3-52" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.875;entryY=0.231;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="enseXvZCVExBjmzHqvM3-45" target="zkfFHV4jXpPFQw0GAbJ--5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="719.5" as="sourcePoint" />
+            <mxPoint x="390" y="636.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="enseXvZCVExBjmzHqvM3-53" value="One-many" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="enseXvZCVExBjmzHqvM3-52">
+          <mxGeometry x="-0.2938" relative="1" as="geometry">
+            <mxPoint x="-31" y="-41" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="enseXvZCVExBjmzHqvM3-55" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="enseXvZCVExBjmzHqvM3-44" target="enseXvZCVExBjmzHqvM3-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="740" as="sourcePoint" />
+            <mxPoint x="640" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="enseXvZCVExBjmzHqvM3-56" value="Many-One" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="enseXvZCVExBjmzHqvM3-55">
           <mxGeometry x="-0.2938" relative="1" as="geometry">
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
