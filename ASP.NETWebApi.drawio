@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-14T07:32:24.785Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="8-5rvVi3o3Id_20x05Fq" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-14T07:46:07.742Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="pXCuYjvBI8-1UF4YJonC" version="21.1.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="880" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -240,6 +240,9 @@
             <mxPoint as="offset" />
             <Array as="points" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="enseXvZCVExBjmzHqvM3-59" value="&lt;div&gt;M-M: One Owners can have many pokeman and One pokeman can have many owners.&lt;/div&gt;&lt;div&gt;M-M: A Pokenman has many category and a category have many pokeman.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;For this we will make exta tables(join tables). &lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="141" y="270" width="640" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
